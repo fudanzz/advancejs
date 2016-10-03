@@ -30,3 +30,21 @@ function invocation
 - method call
 - constructor call
 - apply and call
+
+
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+https://github.com/necolas/idiomatic-js
+
+http://wiki.ecmascript.org/doku.php
+
+advance javascript
+
+1,scoping and hoisting, this
+
+2, closure is function can remember its lexical scope even the function is executed outside of its lexical scope
+
+3, oo pattern
+
+4, async pattern
