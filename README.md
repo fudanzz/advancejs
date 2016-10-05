@@ -45,6 +45,6 @@ advance javascript
 
 2, closure is function can remember its lexical scope even the function is executed outside of its lexical scope
 
-3, oo pattern
+3, oo pattern (object prototype link model)
 
-4, async pattern
+4, async pattern (use promise)

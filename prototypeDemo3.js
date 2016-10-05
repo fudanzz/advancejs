@@ -32,7 +32,7 @@ circle.desc();
 console.log(circle.color);
 
 
-console.log(Circle.prototype);
+
 
 console.log(circle.constructor.prototype.desc);
 

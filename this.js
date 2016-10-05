@@ -14,3 +14,6 @@ var obj = {
 foo();
 
 foo.call(obj);
+
+
+
