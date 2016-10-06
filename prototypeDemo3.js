@@ -33,6 +33,10 @@ console.log(circle.color);
 
 
 
+for (arrt in circle) {
+    console.log(arrt + " is its own property : " + Object.hasOwnProperty(arrt));
+}
+
 
 console.log(circle.constructor.prototype.desc);
 
