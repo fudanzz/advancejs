@@ -77,3 +77,31 @@ Number.method('integer', function () {
 });
 
 console.log((3.6).integer());
+
+Function.prototype.bind3 = function (that) {
+    var method = this;
+    var slice = Array.prototype.slice;
+    console.log(arguments);
+    var args = slice.apply(arguments, [1]);
+    console.log(args);
+    return function () {
+        return method.apply(that,
+            args.concat(slice.apply(arguments, [0])));
+    };
+}
+
+var x = function () {
+    return this.value;
+}.bind3({
+    value: 666
+});
+
+console.log(x());
+
+
+var clist = ['a', 'b', 'c'];
+
+console.log(clist);
+
+
+console.log(Array.prototype.slice.apply(clist));

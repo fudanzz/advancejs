@@ -47,4 +47,11 @@ advance javascript
 
 3, oo pattern (object prototype link model)
 
+Circle.prototype = new Shape();
+
+Function   -->Object
+            
+  
+
+
 4, async pattern (use promise)
